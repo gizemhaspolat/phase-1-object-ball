@@ -116,11 +116,11 @@ function inside of our `homeTeamName` function and operate on the object:
 
 ```js
 function homeTeamName() {
-  let object = gameObject()
-  return object['home']['teamName']
+  let object = gameObject();
+  return object["home"]["teamName"];
 }
 
-console.log(homeTeamName())
+console.log(homeTeamName());
 // logs "Brooklyn Nets"
 ```
 
@@ -131,11 +131,11 @@ results from functions into variables because it makes it easier to debug our
 programs later. One-liners are not always better!
 
 ```js
-function homeTeamName(){
-  return gameObject()['home']['teamName']
+function homeTeamName() {
+  return gameObject()["home"]["teamName"];
 }
 
-console.log(homeTeamName())
+console.log(homeTeamName());
 // logs "Brooklyn Nets"
 ```
 
@@ -208,8 +208,8 @@ Follow these steps to start the debugger:
 - Open the `index.html` file.
 - Press F12 to open the dev tools panel.
 - Refresh the page with the dev tools panel open
-(press `CMD + R` on a Mac or `CTRL + R`
-on Windows or Linux to refresh).
+  (press `CMD + R` on a Mac or `CTRL + R`
+  on Windows or Linux to refresh).
 
 Notice, the program will only ever stop if we have the
 dev tools open.
